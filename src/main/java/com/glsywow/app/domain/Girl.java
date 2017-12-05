@@ -1,9 +1,5 @@
 package com.glsywow.app.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
 /**
  * Created by wanggl on 2017/12/4.
  */

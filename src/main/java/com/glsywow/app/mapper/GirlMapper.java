@@ -2,7 +2,6 @@ package com.glsywow.app.mapper;
 
 import com.glsywow.app.domain.Girl;
 import org.springframework.data.repository.query.Param;
-import org.springframework.stereotype.Repository;
 import tk.mybatis.mapper.common.BaseMapper;
 
 /**
