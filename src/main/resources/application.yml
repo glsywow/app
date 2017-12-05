@@ -1,4 +1,5 @@
 spring:
+#连接池与数据库
   datasource:
     username: root
     password: root
@@ -18,7 +19,11 @@ spring:
     testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
-
+#mybatis
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   typeAliasesPackage: com.glsywow.app.domain
+# 日志
+logging:
+  pattern:
+  level: info

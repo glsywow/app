@@ -1,4 +1,4 @@
-package com.glsywow.app.utils;
+package com.glsywow.app.utils.mybatis;
 
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;
