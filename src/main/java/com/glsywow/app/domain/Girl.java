@@ -1,10 +1,18 @@
 package com.glsywow.app.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /**
  * Created by wanggl on 2017/12/4.
  */
+@Entity
+@Table(name = "girl")
 public class Girl {
-
+    @Id
+    @GeneratedValue
     private Integer id;
     private String cup;
     private String name;

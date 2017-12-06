@@ -1,4 +1,4 @@
-package com.glsywow.app.common;
+package com.glsywow.app.common.threadLocal;
 
 public class CommonParam {
 	private static ThreadLocal<CommonParam> threadLocal = new ThreadLocal<CommonParam>();
